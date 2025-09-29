@@ -14,9 +14,10 @@
     "jsx": "preserve",
     "incremental": true,
     "types": ["node"],
-
-    "baseUrl": ".",                         // <— add this
-    "paths": { "@/*": ["*"] }               // <— add this
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
